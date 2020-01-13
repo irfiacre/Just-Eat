@@ -9,8 +9,11 @@ footer {
     bottom: -200px;
     background-color: #333;
     padding: 30px;
-    font-size: 80%;
-    text-align: center;
+    font-size: 18px;
+    height: 20vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3,1fr);
 }
 .footer-nav {
     list-style: none;
@@ -24,8 +27,39 @@ footer {
 }
 
 
-footer p {
+.copyright{
     color: #888;
     text-align: center;
     font-size: 90%;
+    padding: 10px;
+}
+.icons i{
+    cursor: pointer;
+    width: 15%;
+    color: #888;
+}
+
+#facebook:hover{
+    color: #4267B2;
+}
+#instagram:hover{
+    color: #e4405f;
+}
+#snap:hover{
+   color: #FFFC00; 
+}
+#google:hover{
+    color: #dd4b39;
+}
+#youtube:hover{
+    color: #cd201f;
+}
+
+.call{
+    color: #888;
+}
+
+#sms:hover{
+    cursor: pointer;
+    color: #09b83e;
 }
