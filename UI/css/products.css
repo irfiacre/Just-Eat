@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+a{
+    color: black;
+}
+
+.foods{
+    padding: 20px;
+}
+
+
+.meals{
+display: grid;
+grid-gap: 20px;
+grid-template-columns: repeat(4,1fr);
+padding: 20px;
+
+}
+
+.more{
+background-color: #E79D41;
+border-radius: 20px;
+padding: 1px 10px;
+width: 60%;
+margin-left: 25%;
+text-align: center;
+cursor: pointer;
+}
+.more:hover{
+background-color: var(--background);
+}
+.more a{
+color: white;
+}
+.food{
+/* padding: 20px; */
+cursor: pointer;
+height: 35vh;
+border-radius: 3px;
+/* box-shadow:  rgba(0,0,0,0.2) 0 4px 8px 0,  rgba(0,0,0,0.19) 10px 6px 20px 0; */
+margin: 10px 0; 
+width: 100%;
+}
+.foodin{
+padding: 20px;
+height: 45vh;
+width: 90%;
+border-radius: 0;
+}
+
+.foodin:hover{
+border: 1px solid black;
+box-shadow:  rgba(58, 57, 57, 0.24) 0 4px 8px 0,  rgba(88, 88, 88, 0.103) 10px 6px 20px 0;
+
+}
+
+
+#food1{
+background-image: url(../images/beef2.jpg);
+background-position: center;
+background-size: cover;
+}
+#food2{
+background-image: url(../images/beef1.jpg);
+background-position: center;
+background-size: cover;
+}
+#food3{
+background-image: url(../images/steak.jpg);
+background-position: center;
+background-size: cover;
+}
+#food4{
+background-image: url(../images/chicken.jpg);
+background-position: center;
+background-size: cover;
+}
+#food5{
+background-image: url(../images/hotdog.jpg);
+background-position: center;
+background-size: 80%;
+}
+#food6{
+background-image: url(../images/hambuger.jpg);
+background-position: top;
+background-size: 110%;
+}
+#food7{
+background-image: url(../images/spanishTacos.jpg);
+background-position: top;
+background-size: 115%;
+}
+#food8{
+background-image: url(../images/pizza.jpg);
+background-position: center;
+background-size: cover;
+}
+
+#food9{
+background-image: url(../images/bread.jpg);
+background-position: top;
+background-size: 100%;
+}
+#food10{
+background-image: url(../images/apetics.jpg);
+background-position: center;
+background-size: cover;
+}
+#food11{
+background-image: url(../images/cupcakes.jpg);
+background-position: top;
+background-size: 105%;
+}
+#food12{
+background-image: url(../images/weddingcake.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+.info{
+position: relative;
+text-align: justify;
+top: 63%;
+height: 86px;
+border-radius: 0;
+background-color: white;
+width: 100%;
+padding-top: 10px;
+}
+
+
+.info b{
+background-color: limegreen;
+color: white;
+padding: 3px;
+font-size: 14px;
+}
+
+
+.info i{
+float: right;
+margin-right: 10px;
+font-size: 16px;
+padding: 3px;
+color: var(--secondary);
+}
+.info p{
+font-size: 16px;
+}
+
+@media (min-width: 1420px){
+.info{
+top: 69.5%;
+}
+
+}
