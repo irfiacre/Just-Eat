@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.all{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.profile{
+    background-color: blue;
+    width: 40%;
+}
+.profile img{
+    width: 20%;
+}
+.products{
+    margin-left: -60%;
+}
+
+.meals{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+
+}
+
+.more{
+    background-color: #E79D41;
+    border-radius: 20px;
+    padding: 1px 10px;
+    width: 60%;
+    margin-left: 25%;
+    text-align: center;
+    cursor: pointer;
+}
+.more:hover{
+    background-color: var(--background);
+}
+.more a{
+    color: white;
+}
+.food{
+    /* padding: 20px; */
+    cursor: pointer;
+    height: 35vh;
+    border-radius: 3px;
+    /* box-shadow:  rgba(0,0,0,0.2) 0 4px 8px 0,  rgba(0,0,0,0.19) 10px 6px 20px 0; */
+    margin: 10px 0; 
+    width: 100%;
+}
+.foodin{
+    padding: 20px;
+    height: 45vh;
+    width: 90%;
+    border-radius: 0;
+   }
+
+.foodin:hover{
+    border: 1px solid black;
+    box-shadow:  rgba(58, 57, 57, 0.24) 0 4px 8px 0,  rgba(88, 88, 88, 0.103) 10px 6px 20px 0;
+
+}
+
+
+#food1{
+    background-image: url(../images/beef2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#food2{
+    background-image: url(../images/beef1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#food3{
+    background-image: url(../images/steak.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#food4{
+    background-image: url(../images/chicken.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.info{
+    position: relative;
+    text-align: justify;
+    top: 63%;
+    height: 86px;
+    border-radius: 0;
+    background-color: white;
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+.info b{
+    background-color: limegreen;
+    color: white;
+    padding: 3px;
+    font-size: 14px;
+}
+
+
+.info i{
+    float: right;
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 3px;
+    color: var(--secondary);
+}
+.info p{
+    font-size: 16px;
+}
+.info a{
+    color: black;
+}
+
+
+
+@media (min-width: 1420px){
+    .info{
+        top: 69.5%;
+    }
+
+}
