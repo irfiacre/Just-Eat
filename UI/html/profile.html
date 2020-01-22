@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <link rel="stylesheet" href="../css/moodle.css">
 </head>
 <body>
     <div class="profileContainer">
@@ -27,7 +28,7 @@
                         
                         <ul class="nav-links">
                             <li><a href="">Home</a></li>
-                            <li><a href="#">My cart</a></li>
+                            <li><a href="#"><i class="fas fa-shopping-basket fa-1.5x"></i></a></li>
                             <li><a href="../../index.html">Log Out</a></li>
                             <li><a href="">Account settings</a></li>
                         </ul>
@@ -71,9 +72,43 @@
                 </div></a>
             </div>
 
-            <a href="#"><div class="membership">
-            <p>View your credit card details status</p>
-        </div></a>
+            <div class="membership" >
+            <p id="balance">View your credit card details status</p>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                      <span class="close">&times;</span>
+                      <h2> Credit Card</h2>
+                  </div>
+                
+                  <div class="modal-body">
+                      <div class="creditCard">
+                          <div class="image">
+                            <img src="../images/credit-card.png" alt="Credit Card">
+                          </div>
+                          <div class="details">
+                            <table>
+                                <tr>
+                                    <td>Balance</td>   <td>20,000 Rwf</td>
+                                </tr>
+                                <tr>
+                                    <td>Isue:</td>   <td>January,2019</td>
+                                </tr>
+                                <tr>
+                                    <td>Expire</td>   <td>January,2024</td>
+                                </tr>
+                            </table>
+                          </div>
+                      </div>
+                        
+                  </div>
+                    </div>
+            </div>
+
+
+
+            </div>
 
         <a href="#"><div class="balance">
             <p>Details</p> <br>
@@ -82,22 +117,29 @@
                             <th>Date</th>
                             <td>Product</td>
                             <td>Quantity</td>
-                            <td>P/U</td>
                             <td>Amount</td>
+                            <td>Status</td>
                     </tr>
                     <tr>
                             <th>March,3,2019</th>
                             <td>Beef</td>
                             <td>5</td>
-                            <td>$100</td>
                             <td>$500</td>
+                            <td><i class="fas fa-check-circle " id="check"></i></td>
                     </tr>
                     <tr>
                             <th>May,10,2019</th>
                             <td>Pizza</td>
                             <td>3</td>
-                            <td>$70</td>
                             <td>$210</td>
+                            <td><i class="fas fa-check-circle " id="check"></i></td>
+                    </tr>
+                    <tr>
+                            <th>December,10,2019</th>
+                            <td>Pizza</td>
+                            <td>3</td>
+                            <td>$210</td>
+                            <td><i class="fas fa-times-circle" id="crossed"></i></td>
                     </tr>
                     <tr id="total">
                             <th>Total</th>
@@ -142,6 +184,6 @@
     </footer>
 </div>  
     
-    
+   <script src="../javascript/moodle.js"></script> 
 </body>
 </html>

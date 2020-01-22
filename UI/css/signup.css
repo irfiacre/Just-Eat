@@ -163,15 +163,50 @@ body{
     font-size: 14px;
 }
 .login a:hover{
-    color: #395E64;
+    color: #5B999A;
 }
 
 .login b{
-    margin-left: -15%;
+    margin-right: 57%;
 }
 
 .login i{
     float: right;
-    margin-right: 15px;
+    margin-right: 10%;
+    margin-top: 20px;
+}
+.login span{
+    margin-left: -40%;
+}
+#envelope{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 77%;
+    font-size: 20px;
+    color: #7575757c;
 }
 
+#eye{
+    display: none;
+}
+#eye .active{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 77%;
+    font-size: 20px;
+    cursor: pointer;
+    color: #32AEC3;
+}
+
+#eyeSlash{
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 77%;
+    font-size: 20px;
+    cursor: pointer;
+    color: #7575757c;
+}
+
+#eyeSlash .active{
+    display: none;
+}

@@ -92,6 +92,9 @@ table td{
     padding: 30px;
     height: 300px;
 }
+#balance{
+    cursor: pointer;
+}
 
 #balenceBtn{
     position: relative;
@@ -119,6 +122,13 @@ table td{
 }
 #total td{
     border-top: 1px solid black;    
+}
+
+#check{
+    color: green;
+}
+#crossed{
+    color: #C01C25;
 }
 
 @media screen and (max-width:990px){
