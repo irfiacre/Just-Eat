@@ -23,20 +23,25 @@
 
     <form onsubmit="login()">
         <label for="email">
+                <i class="fa fa-envelope fa-2x" id="envelope"></i>
         <input type="email" name="email" class="input"  id="email" placeholder="Email....." required>
         </label> <br>
 
         <label for="password">
+            <i class="fa fa-eye fa-2x" id="eye"></i>
+            <i class="fa fa-eye-slash fa-2x" id="eyeSlash"></i>
             <input type="password" name="password" class="input" id="password" value placeholder="Password....." required>
         </label> <br>
         
        <p><a href="../html/profile.html"> 
         <input type="button" value="Login" id="signin" onclick="login()">
      </a> 
+     <a href="#"><i>Forgot Password?</i></a> 
         
         <br>
         <br>
-        <a href="signup.html"><b> Create an Account!</b></a>  <a href="#"><i>Forgot Password?</i></a>
+        <a href="signup.html"><b> Create an Account!</b></a>  
+        <span><input type="checkbox" id="check"> Keep me signed in</span>
         
         </p> 
     
@@ -72,5 +77,6 @@
 </div>
 
 <script src="../javascript/authentication.js"></script>
+<script src="../javascript/javascript.js"></script>
 </body>
 </html>

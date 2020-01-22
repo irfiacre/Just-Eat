@@ -258,6 +258,67 @@ q{
 }
 
 
+@media (max-width: 850px){
+    .meals{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+    
+    }
+    .testimonies{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+        padding: 5px;
+        margin-top: -750px; 
+    }
+    .cover2{
+        height: 120vh;  
+      }
+    
+    blockquote{
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+        margin:  7px;  
+        height: 42vh;
+    }
+
+
+}
+
+@media (max-width: 450px){
+    .meals{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+    
+    }
+    .cover2{
+        height: 250vh;  
+      }
+
+    .testimonies{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(1,1fr);
+        padding: 5px;
+        margin-top: -1370px;
+        width: 90%; 
+    }
+    blockquote{
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+        margin:  10px;  
+        height: 65vh;
+    }
+
+
+}
+
 
 
 
