@@ -28,9 +28,7 @@ a{
     padding: 5px;
 }
 
-/* td:hover{
-    border-bottom: 1px dotted black;
-} */
+
 
 .cover2{
     background-image: url(../images/feedbac.jpg);
@@ -44,7 +42,6 @@ a{
             text-align: center;
             padding: 20px;
             text-transform: uppercase;
-            /* color: rgba(238, 236, 236, 0.993); */
   }
 
 .testimonies{
@@ -56,18 +53,6 @@ a{
             z-index: 2;   
   }
 
-.testimony{
-            /* position: absolute; */
-            /* background-color: var(--background); */
-            /* padding: 15px 15px 30px;
-            margin: 0 15px 100px;  
-            position: relative;
-            color: var(--white);
-            border-radius: 3px;
-            height: 50vh; */
-            /* margin-top: 168px; */
-            /* font-family: 'Lucida Sans'; */
-} 
 
 .testimonies span{
             background-color: white;
@@ -82,7 +67,6 @@ a{
             margin-left: 35%;
             width: 20%;
             border-radius: 50%;
-            /* border: 1px solid white; */
   }
 
 .name{
@@ -134,11 +118,9 @@ q{
     color: white;
 }
 .food{
-    /* padding: 20px; */
     cursor: pointer;
     height: 35vh;
     border-radius: 3px;
-    /* box-shadow:  rgba(0,0,0,0.2) 0 4px 8px 0,  rgba(0,0,0,0.19) 10px 6px 20px 0; */
     margin: 10px 0; 
     width: 100%;
 }
@@ -250,7 +232,7 @@ q{
     font-size: 16px;
 }
 
-@media (min-width: 1420px){
+@media(min-width: 1420px){
     .info{
         top: 69.5%;
     }
@@ -258,7 +240,7 @@ q{
 }
 
 
-@media (max-width: 850px){
+@media(max-width: 850px){
     .meals{
         display: grid;
         grid-gap: 10px;
@@ -288,7 +270,7 @@ q{
 
 }
 
-@media (max-width: 450px){
+@media(max-width: 450px){
     .meals{
         display: grid;
         grid-gap: 10px;
