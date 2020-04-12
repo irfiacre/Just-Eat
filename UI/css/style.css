@@ -35,7 +35,7 @@ a{
     background-position: center;
     background-size: cover;
     filter: brightness(0.6);
-    height: 90vh;
+    height: 65vh;
     z-index: -1;
   }
  h3{
@@ -63,7 +63,8 @@ a{
 
 .testImg{
             position: relative;
-            margin-top: -50px;
+            cursor: pointer;
+            margin-top: -7vh;
             margin-left: 35%;
             width: 20%;
             border-radius: 50%;
@@ -80,11 +81,11 @@ blockquote{
             font-size: 16px;
             border: 1px solid var(--white);
             padding: 15px 15px 30px;
-            margin: 10px 15px 0px;  
+            margin: 25vh 15px 0px;  
             position: relative;
             color: var(--white);
             border-radius: 3px;
-            height: 50vh;
+            height: 40vh;
 }
 
 q{
@@ -132,7 +133,7 @@ q{
    }
 
 .foodin:hover{
-    border: 1px solid black;
+    border: 1px solid rgb(35, 128, 145);
     box-shadow:  rgba(58, 57, 57, 0.24) 0 4px 8px 0,  rgba(88, 88, 88, 0.103) 10px 6px 20px 0;
 
 }
@@ -234,8 +235,11 @@ q{
 
 @media(min-width: 1420px){
     .info{
-        top: 69.5%;
+        top: 73%;
     }
+    blockquote{
+        padding: 15px 15px 30px;
+        margin: 10vh 15px 0px; 
 
 }
 
