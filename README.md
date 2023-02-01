@@ -3,7 +3,7 @@
 
 
 
-#### To view Platform, Navigate to reference link [Just Eat](https://irfiacre.github.io/Just-Eat/)
+#### To view Platform, Navigate to reference link [Just Eat](https://justeatrda.netlify.app/)
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/Naereen/StrapDown.js)
